@@ -149,12 +149,12 @@
 }
 
 .scroll-top {
-    bottom: 50px;
+    bottom: 20px;
     cursor: pointer;
     display: none;
     position: fixed;
     right: 30px;
-    width: 30px;
+    width: 55px;
     z-index: 9999;
 }
 
@@ -555,7 +555,8 @@ a.slicknav_btn {
 	margin: 20px 0 15px;
 }
 
-.service-item i.fa {
+.service-item i.fa,
+.scroll-top i.fa {
 	font-size: 55px;
 	color: #ffd000;
 }
@@ -679,6 +680,7 @@ a.slicknav_btn {
 	background-size: cover;
 	background-position: center center;
 	color: #fff;
+    padding: 200px 0;
 }
 
 .single-funfact {
