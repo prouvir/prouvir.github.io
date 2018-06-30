@@ -5,6 +5,7 @@ description: Conheça as primeiras características da perda auditiva
 date: 2018-06-29 16:16:01
 blog: active
 cover: andrea-tummons-450846-unsplash.jpg
+carousel: [andrea-tummons-450846-unsplash.jpg, shane-rounce-682791-unsplash.jpg]
 excerpt_separator: <!--more-->
 ---
 Você precisa que as palavras sejam repetidas frequentemente? Utiliza rádio ou TV em um volume muito alto? Lê os lábios ou precisa prestar mais atenção nas pessoas quando falam? Pensa que os sons estão abafados ou as pessoas parecem estar sussurrando?<!--more-->  Se suas respostas foram positivas para essas perguntas, está na hora de pensar na possibilidade de fazer uma avaliação audiológica.
