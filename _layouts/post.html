@@ -30,12 +30,11 @@ layout: default
                 <div class="car-details-content">
                     <h2 id="post-title">{{ page.title }}</h2>
                     <div class="car-preview-crousel">
-                        <div class="single-car-preview">
-                            <img src="/assets/img/article/zumbido/cristian-newman-67308-unsplash.jpg" alt="Zumbido">
-                        </div>
-                        <div class="single-car-preview">
-                            <img src="/assets/img/article/zumbido/whoislimos-265482-unsplash.jpg" alt="Zumbido">
-                        </div>
+                        {% for photo in page.carousel %}
+                            <div class="single-car-preview">
+                                <img src="/assets/img/article/zumbido/{{ photo }}" alt="{{ photo }}">
+                            </div>
+                        {% endfor %}
                     </div>
                     <div class="car-details-info blog-content">
                         {{ content }}

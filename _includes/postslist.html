@@ -7,7 +7,7 @@
                     <!-- Articles Thumbnail Start -->
                     <div class="col-lg-5">
                         <div class="article-thumb">
-                            <img src="assets/img/article/zumbido/cristian-newman-67308-unsplash.jpg" alt="Zumbido">
+                            <img src="assets/img/article/zumbido/{{ post.cover }}" alt="Zumbido">
                         </div>
                     </div>
                     <!-- Articles Thumbnail End -->
@@ -26,7 +26,12 @@
                                         <a href="#" class="author">Por :: <span>Roberta Santos</span></a>
                                     </div>
 
-                                    <div class="article-date">24 <span class="month">jun</span></div>
+                                    <div class="article-date">
+                                        {{ post.date | date: '%d' }}
+                                        <span class="month">
+                                            {{ post.date | date: '%b' }}
+                                        </span>
+                                    </div>
 
                                     <p>
                                         {{ post.excerpt }}

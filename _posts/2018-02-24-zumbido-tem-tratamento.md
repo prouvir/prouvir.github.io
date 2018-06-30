@@ -5,6 +5,7 @@ description: Entenda a perturbação que incomoda um número expressivo de pesso
 date: 2018-06-24 16:16:01
 blog: active
 cover: cristian-newman-67308-unsplash.jpg
+carousel: [cristian-newman-67308-unsplash.jpg, whoislimos-265482-unsplash.jpg]
 excerpt_separator: <!--more-->
 ---
 O zumbido, popularmente conhecido como "barulho nos ouvidos", varia sensivelmente de pessoa para pessoa e pode ser ouvido constantemente. Pode ser definido como uma percepção sonora na ausência de barulhos externos. Já é considerado um problema de saúde pública, já que ocorre em 30 milhões de pessoas no Brasil.<!--more--> Este sintoma pode levar a distúrbios do sono, da concentração e do equilíbrio emocional, podendo causar um impacto importante na qualidade de vida em 20% dos casos.
