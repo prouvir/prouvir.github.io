@@ -2,7 +2,7 @@
 layout: post
 title: Sinais de perda auditiva
 description: Conheça as primeiras características da perda auditiva
-date: 2018-06-30 16:16:01
+date: 2018-06-29 16:16:01
 blog: active
 cover: andrea-tummons-450846-unsplash.jpg
 excerpt_separator: <!--more-->
