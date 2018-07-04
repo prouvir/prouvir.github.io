@@ -150,8 +150,8 @@
 <p>Se você tem zumbido ou conhece alguém que sofre com esse sintoma, fala com a gente. Teremos o maior prazer de levar para você a solução ideal para a sua necessidade.</p>
 
                         <div class="review-area">
-                            <h3>Fale com a gente!</h3>
-                            <p>
+                            <h3 class="form-call__header">Fale com a gente!</h3>
+                            <p class="form-call__paragraph">
                               Escreva para
                               <a href="mailto:contato@provir.com">
                                 <i class="fa fa-envelope"></i>
@@ -160,22 +160,22 @@
                               ou preencha e envie as informações abaixo para entrarmos em contato com você.
                             </p>
                             <div class="review-form">
-                                <form action="index.html">
+                                <form id="contact-form" action="https://hooks.zapier.com/hooks/catch/3464716/w9ztp5/" method="post" target="no-target">
                                     <div class="row message-input">
                                       <div class="col-lg-6 col-md-6">
-                                        <input type="text" placeholder="Nome">
+                                        <input type="text" name="name" placeholder="Nome">
                                       </div>
                                     </div>
 
                                     <div class="row message-input">
                                       <div class="col-lg-6 col-md-6">
-                                        <input type="text" placeholder="Telefone (87) 9 9999-9999">
+                                        <input type="text" name="phone" placeholder="Telefone (87) 9 9999-9999">
                                       </div>
                                     </div>
 
                                     <div class="row message-input">
                                       <div class="col-lg-6 col-md-6">
-                                        <input type="email" placeholder="E-mail">
+                                        <input type="email" name="email" placeholder="E-mail">
                                       </div>
                                     </div>
 
@@ -183,6 +183,7 @@
                                         <button type="submit">Enviar</button>
                                     </div>
                                 </form>
+                                <iframe src="#" id="no-target" name="no-target" style="visibility:hidden;height:0;" tabindex="-1"></iframe>
                             </div>
                         </div>
                     </div>
